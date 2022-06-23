@@ -16,4 +16,6 @@ def parity_bit_checker(binary: str):
     return empty_str
 
 
-print(parity_bit_checker("10100011 00111001 11001100"))
+print(parity_bit_checker(test1))
+print(parity_bit_checker(test2))
+print(parity_bit_checker(test3))
