@@ -13,7 +13,8 @@ def parity_bit_checker(binary: str):
             empty_str = empty_str + bit[0:-1] + " "
         else:
             print("error")
-    return empty_str
+    # slices off the last character which is a space which will fail the coding challenge
+    return empty_str[0:-1]
 
 
 print(parity_bit_checker(test1))
